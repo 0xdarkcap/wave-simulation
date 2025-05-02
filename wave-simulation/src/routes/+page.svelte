@@ -642,9 +642,19 @@ small {
     cursor: grabbing;
   }
 
-  @media (max-width: 640px) {
-    .controls {
-      grid-template-columns: 1fr;
-    }
+  @media (max-width: 768px) {
+  .simulation-container {
+    flex-direction: column;
   }
+  .controls {
+    height: auto;
+    max-height: 50vh;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  .canvas-container {
+    height: auto;
+    flex: 1;
+  }
+}
 </style>
