@@ -2,7 +2,7 @@
 
 A Svelte and WebGL-based interactive wave interference simulation. Drag wave sources on a canvas to visualize real-time interference patterns. Adjust wavelength, frequency, amplitude decay, and dot density. Mobile-friendly with touch support.
 
-[Live Demo](https://varuns.info/wave-simulation)
+[Live Demo](https://wave-simulation-inky.vercel.app/)
 
 ## Features
 - Real-time wave interference visualization using WebGL.
@@ -18,7 +18,7 @@ A Svelte and WebGL-based interactive wave interference simulation. Drag wave sou
    cd wave-simulation
    npm install
    npm run dev
-  ```
+  
 Author
 [Varun S](https://varuns.info/)
 
